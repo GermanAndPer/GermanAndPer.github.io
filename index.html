@@ -35,30 +35,47 @@ lang="es" cuando esta en español.
         HREF es para indicar como se llama el archivo.
         -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>GermanAndPer: A data Analyst </title>
+        <title>GermanAndPer: A data Analyst, Developer </title>
+        <!-- TITLE es la etiqueta con la que definiremos el nombre que aparecerá en el nombre de la pagina. -->
     </head>
     <body>
     <!-- En la etiqueta de BODY se podran toda la informacion que se mostrará al cliente-->
     <!--  -->
         
         <header>
-        <!--  -->
-        <h1>Hello World</h1>
-
-            <nav>
-                
-            </nav>
+        <!-- Esta es una etiqueta especialmente diseñada para contener el HEADER -->
+        <h1>GermanAndPer: Data Analyst, Developer</h1>
+        <!-- Esta es una etiqueta diseñada para poner diferentes encabezados Teniendo hasta H2, H3, H4, H5, H6-->
         </header>
         <main>
-        <!--  -->
+        <!-- En esta etiqueta aparecerá el cuerpo de todo lo que verán los clientes.  -->
             <section>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/m--lZP1c28g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <article>
+                <!-- <video src="./Folder/archivo.mp4#t=10,60" controls preload="auto"> </video> -->
+                <!-- la etiqueta VIDEO es para poder insetar videos. Solo te va a pedir la ruta en tu computadora.
+                Pero hacer solo esto aparece una previsualizacion. Pero no se podria iniciar. Para poder agregar los botones de Play y otros agregamos CONTROLS solo eso. Como en el ejemplo.
+                En caso de que se quiera iniciar en una parte en especifico del video, se agrega un # al final de la ruta del video.
+                Despues de eso se pone T= y pones el segundo donde iniciará el video. Una coma y el segundo donde terminaría el video. Como en el ejemplo.
+                Y al final agregamos PRELOAD="AUTO"
+                Esto solo empieza a cargar el video en cuanto termina de cargar la pagina.
+                Importante mencionar que no es lo mismo cargar el video que reproducir en automatico. Que esto incluso es penalizado en algunos lados.
+                 -->
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/m--lZP1c28g" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+                <!-- Esta es otra manera de poner un Link en una Pagina Web.
+                Solo es necesario abrir el video de Youtube en Youtube. Y al presionar el boton de compartir. 
+                La opcion de incoporar te genera el codigo que se pondras en el HTML. Solo copeas y Pegas-->
 
-                </article>
             </section>
+            <!-- UL es para hacer listas NO ORDENADAS. Esto significa que empiezan con un CIRUCLO NEGRO -->
             <ul>
+                <!-- LI agrega los articulos de la lista -->
                 <li>Tools</li>
+                <!-- OL es para hacer listas ORDENADAS. Esto significa que empiezan El numero correspondiente de acuerdo a su posicion en la lista -->
                 <ol>
                     <li>Excel</li>
                     <li>Power BI</li>
@@ -69,65 +86,58 @@ lang="es" cuando esta en español.
                 </ol>
             </ul>
             <ul>
-            <li>Experience</li>
+                <li>Experience</li>
                 <ol>
                     <li>KPMG</li>
                     <li>Open Source Projects</li>
-                    <li></li>
+                    <li>Personal Management</li>
                     <li></li>
                 </ol>
             </ul>
             
-           
-        
-        <section id="links">
-            <p> Social Media </p> 
-            <a href="https://germanandper.github.io/"> 
-                <figure>
-                    <img src="https://blucactus.com.mx/wp-content/uploads/2019/08/BLOG-COMPONENTES-300x300.png" 
-                    alt="Pagina de GITHUB" height="50" width="50"> 
-                    <figcaption>Mi Pagina Web</figcaption>
-                </figure>
-            </a>
-            <a href="https://www.instagram.com/germerandper/">
-                <figure>
+            <!-- SECTION se utiliza para dividir la informacion por tipo de informacion. -->
+            <section id="links">
+                <p> Social Media </p> 
+                <a href="https://germanandper.github.io/"> 
+                <!--  a  es la Etiqueta para hacer hypervinvulos. Y entre las etiquetas de apertura y cierre se pone el Texto que funcionará como HYPERVINCULO. 
+                Pero tambien pueden funcionar imagenes para esto mismo.-->
+                <!-- SRC es por SOURCE es para poner la ruta de la imagen -->
+                    <!-- <figure> -->
+                        <img src="https://blucactus.com.mx/wp-content/uploads/2019/08/BLOG-COMPONENTES-300x300.png" 
+                        alt="Pagina de GITHUB" height="50" width="50"> 
+                        <!-- <figcaption>Mi Pagina Web</figcaption>
+                    </figure> -->
+                <!-- <figure></figure> Esta etiqueta funciona para poder agrupar imagenes como figuras
+                <figcaption></figcaption> Esta etiquea, dentro de la de FIGURE hace que apareza un texto en especifico. a lado de la imagen.--> 
+                </a>
+                <a href="https://www.instagram.com/germerandper/">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/769px-Instagram-Icon.png" 
                     alt="Instagram" width="50" height="50" >
-                    <figcaption></figcaption>
-                </figure>
-            </a>
-            <!--  a  es la Etiqueta para hacer hypervinvulos-->
-            <!-- SRC es por SOURCE es para poner la ruta de la imagen -->
-            <a href="https://www.facebook.com/GermerAndPer/"> 
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" 
-                alt="facebook" height="50" width="50"> 
-            </a>
-            <a href="https://github.com/GermanAndPer"> 
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" 
-                alt="Github" height="50" width="50" > 
-            </a>
-            <a href="https://twitter.com/GermanAndPer"> 
-                <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png" 
-                alt="Twitter" width="50" height="50"> 
-            </a>
-            <!--  
-            <a href="https://germanandper.com/"> <img src="" alt="" height="50" width="50"> Mi primer pagina Web</a><br>
-            <a href="https://germandper.com/"> <img src="" alt="" height="50" width="50"> Mi segunda pagina Web</a> <br>
-            <a href="https://germandper.com/"> <img src="" alt="" height="50" width="50"> Instagram</a><br>
-            <a href="https://germandper.com/"> <img src="" alt="" height="50" width="50"> Instagram</a><br>
-            <a href="https://germandper.com/"> <img src="" alt="" height="50" width="50"> Instagram</a><br>
-            -->
-        
-        
-        </section>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+                </a>
+                <a href="https://www.facebook.com/GermerAndPer/"> 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" 
+                    alt="facebook" height="50" width="50"> 
+                </a>
+                <a href="https://github.com/GermanAndPer"> 
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" 
+                    alt="Github" height="50" width="50" > 
+                </a>
+                <a href="https://twitter.com/GermanAndPer"> 
+                    <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png" 
+                    alt="Twitter" width="50" height="50"> 
+                </a>
+                <!--  
+                <a href="https://germanandper.com/"> <img src="" alt="" height="50" width="50"> Mi primer pagina Web</a><br>
+                <a href="https://germandper.com/"> <img src="" alt="" height="50" width="50"> Mi segunda pagina Web</a> <br>
+                <a href="https://germandper.com/"> <img src="" alt="" height="50" width="50"> Instagram</a><br>
+                <a href="https://germandper.com/"> <img src="" alt="" height="50" width="50"> Instagram</a><br>
+                <a href="https://germandper.com/"> <img src="" alt="" height="50" width="50"> Instagram</a><br>
+                -->
+
+            </section>
         </main>
         <footer>
-        
-
+        <!-- Es la etiqueta de FOOTER donde va a estar todas la imormacion del pie de Pagina. -->
         </footer>
     </body>
 </html>
@@ -135,7 +145,6 @@ lang="es" cuando esta en español.
 
 
 
-<!--  -->
 <!--  -->
 <!--  -->
 <!--  -->
