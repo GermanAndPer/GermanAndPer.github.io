@@ -34,6 +34,7 @@ lang="es" cuando esta en español.
         REL es para especificar que tipo de archivo es. stylesheet es para archivos CSS
         HREF es para indicar como se llama el archivo.
         -->
+        <!-- Se recomienda tener el CSS y el HTML juntos en una sola carpeta. Y esto en una buena practica. -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>GermanAndPer: A data Analyst, Developer </title>
         <!-- TITLE es la etiqueta con la que definiremos el nombre que aparecerá en el nombre de la pagina. -->
@@ -46,6 +47,16 @@ lang="es" cuando esta en español.
         <!-- Esta es una etiqueta especialmente diseñada para contener el HEADER -->
         <h1>GermanAndPer: Data Analyst, Developer</h1>
         <!-- Esta es una etiqueta diseñada para poner diferentes encabezados Teniendo hasta H2, H3, H4, H5, H6-->
+            <nav>
+            <!-- Acomo se comento que HEADER es para los encabezados, NAV es para agrupar la barra de Navegacion. -->
+               <ul class="main-nav">
+                    <li class="main-nav__item"><a href="">Home</a></li>
+                    <li class="main-nav__item"><a href="">CV</a></li>
+                    <li class="main-nav__item"><a href="">Portafolio/Projects</a></li>
+                    <li class="main-nav__item"><a href="">About me</a></li>
+                    <li class="main-nav__item"><a href="">Contact</a></li>
+               </ul> 
+            </nav>
         </header>
         <main>
         <!-- En esta etiqueta aparecerá el cuerpo de todo lo que verán los clientes.  -->
@@ -59,13 +70,13 @@ lang="es" cuando esta en español.
                 Esto solo empieza a cargar el video en cuanto termina de cargar la pagina.
                 Importante mencionar que no es lo mismo cargar el video que reproducir en automatico. Que esto incluso es penalizado en algunos lados.
                  -->
-                <iframe width="560" height="315" 
+                <!-- <iframe width="560" height="315" 
                     src="https://www.youtube.com/embed/m--lZP1c28g" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
-                </iframe>
+                </iframe> -->
                 <!-- Esta es otra manera de poner un Link en una Pagina Web.
                 Solo es necesario abrir el video de Youtube en Youtube. Y al presionar el boton de compartir. 
                 La opcion de incoporar te genera el codigo que se pondras en el HTML. Solo copeas y Pegas-->

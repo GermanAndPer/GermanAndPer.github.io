@@ -2,3 +2,40 @@ body {
     background-color: black;
     color: rgb(24, 215, 215) ;
 }
+
+.main-nav {
+    margin: 10px;
+    list-style: none;
+    padding: 1% ;
+    background-color: gray;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+/* La siguiente accion es para se especifico. Que para las etiquetas (como la A) que estan dentro de la clase main-nav__item. va a funcionar el siguiente codigo.*/
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* HOVER e la accion de que el MOUSE este arriba del de algo.
+Esto es una PSEUDOCLASE*/
+.main-nav__item a:hover {
+    color: blue;
+}
+/* ACTIVE hace referencia a cuando se da click */
+.main-nav__item a:active {
+    color: greenyellow;
+}
+/* PSEUDOELEMENTO para llamar a un PSEUDOELEMENTO es necesario los dos puntos :: 
+AFTER es como una condicion. Cada que termina un elemento, que hacer.
+en este caso CONTENT es para poner ese simbolo despues de cada Elemento. 
+*/
+.main-nav__item a::after {
+    content: "✅";
+
+}
