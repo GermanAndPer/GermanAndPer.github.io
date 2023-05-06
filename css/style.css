@@ -1,3 +1,4 @@
+/* Esto le da formato el cuerpo del HTML */
 body {
     background-color: black;
     color: rgb(24, 215, 215) ;
@@ -13,17 +14,6 @@ body {
 .main-nav__item {
     display: inline-block;
 }
-
-.contact {
-    display: inline-block;
-}
-
-.contact {
-    margin: 10px;
-    list-style: none;
-    padding: 1% ;
-    background-color: gray;
-}
 /* La siguiente accion es para se especifico. Que para las etiquetas (como la A) que estan dentro de la clase main-nav__item. va a funcionar el siguiente codigo.*/
 .main-nav__item a {
     color: white;
@@ -37,10 +27,13 @@ Esto es una PSEUDOCLASE*/
 .main-nav__item a:hover {
     color: blue;
 }
+
 /* ACTIVE hace referencia a cuando se da click */
 .main-nav__item a:active {
     color: greenyellow;
 }
+
+
 /* PSEUDOELEMENTO para llamar a un PSEUDOELEMENTO es necesario los dos puntos :: 
 AFTER es como una condicion. Cada que termina un elemento, que hacer.
 en este caso CONTENT es para poner ese simbolo despues de cada Elemento. 
@@ -49,26 +42,47 @@ en este caso CONTENT es para poner ese simbolo despues de cada Elemento.
     content: "✅";
 
 }
-* {
-    box-sizing: border-box;
-    /* padding: 0;
-    margin: 0; */
-}
-/* la etiqueta BOX SIZING permite auto ajustar la visualizacon de la pagina web solo no toma en consideracion  el MARGIN */
-.main-nav {
-    margin: 10px;
-    list-style: none;
-    padding: 1% ;
-    background-color: gray;
+
+.contact__links {
+    display: inline-block;
 }
 
-main {
-    border: 5px solid greenyellow;
+.contact {
+    margin: 10px;
+    padding: 1% ;
+    background-color: gray;
+    /* border-radius: 15%; */
+    
 }
-footer {
-    border: 5px solid white ;
+
+.img__link {
+    width: 50px;
+    height: 50px;
+}
+
+.contact__links:hover {
+    padding: 10px;
+    background-color: greenyellow;
+}
+
+
+
+/* la etiqueta BOX SIZING accede a todos los elementos y les da un apropiedad en especifico. Esta en especifico permite auto ajustar 
+la visualizacon de la pagina web solo no toma en consideracion  el MARGIN */
+* {
+    box-sizing: border-box;
+}
+
+
+
+main {
+    border: 1px solid greenyellow;
 }
 
 header {
-    border: 5px solid azure ;
+    border: 1px solid azure ;
+}
+
+footer {
+    border: 1px solid white ;
 }
