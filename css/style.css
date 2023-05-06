@@ -14,6 +14,16 @@ body {
     display: inline-block;
 }
 
+.contact {
+    display: inline-block;
+}
+
+.contact {
+    margin: 10px;
+    list-style: none;
+    padding: 1% ;
+    background-color: gray;
+}
 /* La siguiente accion es para se especifico. Que para las etiquetas (como la A) que estan dentro de la clase main-nav__item. va a funcionar el siguiente codigo.*/
 .main-nav__item a {
     color: white;
@@ -38,4 +48,27 @@ en este caso CONTENT es para poner ese simbolo despues de cada Elemento.
 .main-nav__item a::after {
     content: "✅";
 
+}
+* {
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0; */
+}
+/* la etiqueta BOX SIZING permite auto ajustar la visualizacon de la pagina web solo no toma en consideracion  el MARGIN */
+.main-nav {
+    margin: 10px;
+    list-style: none;
+    padding: 1% ;
+    background-color: gray;
+}
+
+main {
+    border: 5px solid greenyellow;
+}
+footer {
+    border: 5px solid white ;
+}
+
+header {
+    border: 5px solid azure ;
 }
