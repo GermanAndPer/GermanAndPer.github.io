@@ -1,4 +1,13 @@
 /* Esto le da formato el cuerpo del HTML */
+
+/* html {
+    font-size: 62.5%;
+} 
+
+p{
+    font-size: 1.6rem;
+} */
+
 body {
     background-color: black;
     color: rgb(24, 215, 215) ;
@@ -9,6 +18,7 @@ body {
     list-style: none;
     padding: 1% ;
     background-color: gray;
+    
 }
 
 .main-nav__item {
@@ -18,7 +28,7 @@ body {
 .main-nav__item a {
     color: white;
     padding: 5px;
-    border-radius: 2px;
+    border-radius: 3px;
     text-decoration: none;
 }
 
@@ -45,6 +55,14 @@ en este caso CONTENT es para poner ese simbolo despues de cada Elemento.
 
 .contact__links {
     display: inline-block;
+    position: relative;
+    justify-content: stretch;
+}
+
+.contact {
+    position: relative;
+    justify-content: center;
+
 }
 
 .contact {
@@ -52,12 +70,13 @@ en este caso CONTENT es para poner ese simbolo despues de cada Elemento.
     padding: 1% ;
     background-color: gray;
     /* border-radius: 15%; */
-    
+    /* justify-items: stretch; */
 }
 
 .img__link {
     width: 50px;
     height: 50px;
+
 }
 
 .contact__links:hover {
