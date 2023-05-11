@@ -28,6 +28,10 @@ lang="es" cuando esta en español.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--  Esta variacion ayuda a que nuestra pagina tenga Responsive Desing.
         Y que por consiguiente sea visto en un Telefono sin problemas -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100;700&family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/normalize.css">
         <link rel="stylesheet" href="./css/style.css">
         <!-- Hay una forma de llamar la informacion de otros archivos. Como CSS o JavaScrip
@@ -46,22 +50,25 @@ lang="es" cuando esta en español.
         
         <header>
             <!-- Esta es una etiqueta diseñada para poner diferentes encabezados Teniendo hasta H2, H3, H4, H5, H6-->
-            <h1>GermanAndPer: Data Analyst, Developer</h1>
+            <div class="titulo">
+                <h1>GermanAndPer: Data Analyst, Developer</h1>
+            </div>
+            <nav class="barra__navegacion">
+                <!-- Acomo se comento que HEADER es para los encabezados, NAV es para agrupar la barra de Navegacion. -->
+                <ul class="main-nav">
+                    <li class="main-nav__item"><a href="">Home</a></li>
+                    <li class="main-nav__item"><a href="">CV</a></li>
+                    <li class="main-nav__item"><a href="">Portafolio/Projects</a></li>
+                    <li class="main-nav__item"><a href="">About me</a></li>
+                    <li class="main-nav__item"><a href="">Contact</a></li>
+                </ul> 
+            </nav>
         </header>
         <!-- Esta es una etiqueta especialmente diseñada para contener el HEADER -->
-        <nav>
-            <!-- Acomo se comento que HEADER es para los encabezados, NAV es para agrupar la barra de Navegacion. -->
-            <ul class="main-nav">
-                <li class="main-nav__item"><a href="">Home</a></li>
-                <li class="main-nav__item"><a href="">CV</a></li>
-                <li class="main-nav__item"><a href="">Portafolio/Projects</a></li>
-                <li class="main-nav__item"><a href="">About me</a></li>
-                <li class="main-nav__item"><a href="">Contact</a></li>
-            </ul> 
-        </nav>
+
         <main>
         <!-- En esta etiqueta aparecerá el cuerpo de todo lo que verán los clientes.  -->
-            <section>
+            <section class="summary" >
                 <!-- <video src="./Folder/archivo.mp4#t=10,60" controls preload="auto"> </video> -->
                 <!-- la etiqueta VIDEO es para poder insetar videos. Solo te va a pedir la ruta en tu computadora.
                 Pero hacer solo esto aparece una previsualizacion. Pero no se podria iniciar. Para poder agregar los botones de Play y otros agregamos CONTROLS solo eso. Como en el ejemplo.
@@ -82,38 +89,49 @@ lang="es" cuando esta en español.
                 Solo es necesario abrir el video de Youtube en Youtube. Y al presionar el boton de compartir. 
                 La opcion de incoporar te genera el codigo que se pondras en el HTML. Solo copeas y Pegas-->
 
+                
+                    <!-- UL es para hacer listas NO ORDENADAS. Esto significa que empiezan con un CIRUCLO NEGRO -->
+                    <div class="description">
+                        <ul>
+                            <!-- LI agrega los articulos de la lista -->
+                            <li>Tools</li>
+                            <!-- OL es para hacer listas ORDENADAS. Esto significa que empiezan El numero correspondiente de acuerdo a su posicion en la lista -->
+                            <ol>
+                                <li>Excel</li>
+                                <li>Power BI</li>
+                                <li>Macros</li>
+                                <li>SQL Server</li>
+                                <li>English 85%</li>
+                                <li>Python</li>
+                                <li>Git y github</li>
+                            </ol>
+                        </ul>
+                    </div>
+                    <div class="description">
+                        <ul>
+                            <li>Experience</li>
+                            <ol>
+                                <li>KPMG</li>
+                                <li>Open Source Projects</li>
+                                <li>Personal Management</li>
+                                <li>Work under Presure</li>
+                            </ol>
+                        </ul>
+                    </div>
+                    <div class="description">
+                        Elemento 3
+                    </div>
+                    <div class="description">
+                        Elemento 4
+                    </div>
+
+                    <!-- SECTION se utiliza para dividir la informacion por tipo de informacion. -->
             </section>
-            <!-- UL es para hacer listas NO ORDENADAS. Esto significa que empiezan con un CIRUCLO NEGRO -->
-            <ul>
-                <!-- LI agrega los articulos de la lista -->
-                <li>Tools</li>
-                <!-- OL es para hacer listas ORDENADAS. Esto significa que empiezan El numero correspondiente de acuerdo a su posicion en la lista -->
-                <ol>
-                    <li>Excel</li>
-                    <li>Power BI</li>
-                    <li>Macros</li>
-                    <li>SQL Server</li>
-                    <li>English 85%</li>
-                    <li>Python</li>
-                    <li>Git y github</li>
-                </ol>
-            </ul>
-            <ul>
-                <li>Experience</li>
-                <ol>
-                    <li>KPMG</li>
-                    <li>Open Source Projects</li>
-                    <li>Personal Management</li>
-                    <li>Work under Presure</li>
-                </ol>
-            </ul>
-        <h2>About Me</h2>
-        <p> This is something about me. </p>
-        <p> I Like the data Analitics</p>
-        <p>This is something of my work</p>
-            <!-- SECTION se utiliza para dividir la informacion por tipo de informacion. -->
-
-
+            <section class="aboutMe">
+                <div class="thisIsMe">
+                    <h2>About Me</h2>
+                    <p> This is something about me. I Like the data Analitics. This is something of my work</p>
+                </div>
             </section>
         </main>
         <footer>
@@ -156,12 +174,3 @@ lang="es" cuando esta en español.
         </footer>
     </body>
 </html>
-
-
-
-
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
