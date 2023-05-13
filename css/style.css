@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-
 }
 /* html {
     font-size: 62.5%;
@@ -22,31 +21,42 @@ body {
 
 
 header {
-    height: 100px;
+    /* height: 100px; */
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
 }
 .titulo, .barra__navegacion {
     display: inline-block;
-    width: 100%;
-    position: fixed;
+    margin: 0 auto;
+    width: 50%;
+    /*position: fixed; */
 }
 
+
 .titulo {
-    text-align: left;
+    /* width: 100%;
+    background-color: brown;
+    font-size: 10px;
     z-index: 0;
-    font-size: 15px;
+    height: 100px;
+    margin-bottom: 10px; 
+    padding: 10px;
     top: 1px;
+    text-align: left;
     left: 1px;
     width: 100%;
-    height: 100px;
-    padding: 10px;
-    margin-bottom: 10px;
+    position: absolute; */
+    /* 
+    font-size: 15px;
+    */
 }
 
 .barra__navegacion {
-    z-index: 1;
-    width: 100%;
+    position: absolute;
+    /* background-color: aqua; */
+    /* z-index: 1;
+    width: 100%; */
+    /* position: absolute; */
 }
 
 .main-nav {
@@ -69,7 +79,7 @@ header {
     padding: 5px;
     border-radius: 3px;
     text-decoration: none;
-    display: block;
+    /* display: block; */
     margin: 0 10px;
 }
 
@@ -124,7 +134,7 @@ ul, ol {
     justify-content: center; */
     /* width: 75vw;
     height: 80vh; */
-    grid-area: main;
+    /* grid-area: main; */
     position: absolute;
 }
 
