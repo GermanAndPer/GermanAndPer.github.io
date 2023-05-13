@@ -24,19 +24,25 @@ header {
     /* height: 100px; */
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    
 }
 .titulo, .barra__navegacion {
-    display: inline-block;
+    /* display: inline-block; */
     margin: 0 auto;
     width: 50%;
+   
     /*position: fixed; */
 }
 
 
 .titulo {
+    font-size: 12px;
     /* width: 100%;
     background-color: brown;
-    font-size: 10px;
     z-index: 0;
     height: 100px;
     margin-bottom: 10px; 
@@ -52,11 +58,13 @@ header {
 }
 
 .barra__navegacion {
-    position: absolute;
+    /* position: absolute; */
     /* background-color: aqua; */
     /* z-index: 1;
     width: 100%; */
     /* position: absolute; */
+
+   
 }
 
 .main-nav {
@@ -64,11 +72,17 @@ header {
     list-style: none;
     text-align: right;
     padding: auto;
-    margin: 30px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
 }
 
 .main-nav__item {
-    display: inline-block;
+    padding: 3px;
+    /* display: flex;
+    flex-direction: row;
+    text-align: right; */
 }
 /* La siguiente accion es para se especifico. Que para las etiquetas (como la A) que estan dentro de la clase main-nav__item. va a funcionar el siguiente codigo.*/
 .main-nav__item a {
@@ -105,27 +119,37 @@ en este caso CONTENT es para poner ese simbolo despues de cada Elemento.
 } */
 /* ******************************************************************************** */
 
+main {
+    display: flex;
+
+}
+
+
 .summary, .aboutMe {
-    display: inline-block;
+    /* display: inline-block; */
+    
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .summary {
     background-color: blue;
     
-
+    
 }
 
 .description {
+    width: 20vh;
     margin: 10px ;
-    padding: 10px;
+    padding: 1px;
     background-color: rgb(8, 143, 102);
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
     color: white;
 }
 
 ul, ol {
+    /* width: 20vh; */
     list-style: none;
 }
 
@@ -135,7 +159,7 @@ ul, ol {
     /* width: 75vw;
     height: 80vh; */
     /* grid-area: main; */
-    position: absolute;
+    /* position: absolute; */
 }
 
 
@@ -165,15 +189,18 @@ p {
 
 /* ******************************************************************************** */
 .contact__links {
-    display: inline-block;
+    /* display: inline-block; */
     position: relative;
     justify-content: stretch;
     
 }
 
 .contact {
-    position: relative;
-    justify-content: center;
+    /* position: relative; */
+    /* justify-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
