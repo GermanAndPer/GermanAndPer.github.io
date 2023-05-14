@@ -33,7 +33,26 @@ lang="es" cuando esta en español.
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100;700&family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/normalize.css">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/phone.css">
+        <!-- <link 
+            rel="stylesheet" 
+            href="./css/phone.css"
+            media="screen and (min-width: 600px)"
+        > -->
+
+        <!-- <link 
+            rel="stylesheet" 
+            href="./css/tablet.css"
+            media="screen and (min-width: 800px)"
+        > -->
+        
+        <link 
+            rel="stylesheet" 
+            href="./css/desktop.css"
+            media="screen and (min-width: 500px)"
+        >
+
+
         <!-- Hay una forma de llamar la informacion de otros archivos. Como CSS o JavaScrip
         Para esto usamos LINK
         REL es para especificar que tipo de archivo es. stylesheet es para archivos CSS
@@ -41,7 +60,7 @@ lang="es" cuando esta en español.
         -->
         <!-- Se recomienda tener el CSS y el HTML juntos en una sola carpeta. Y esto en una buena practica. -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>GermanAndPer: A data Analyst, Developer </title>
+        <title>GermanAndPer: Data Analyst, Developer </title>
         <!-- TITLE es la etiqueta con la que definiremos el nombre que aparecerá en el nombre de la pagina. -->
     </head>
     <body>
@@ -51,7 +70,19 @@ lang="es" cuando esta en español.
         <header>
             <!-- Esta es una etiqueta diseñada para poner diferentes encabezados Teniendo hasta H2, H3, H4, H5, H6-->
             <div class="titulo">
-                <h1>GermanAndPer: Data Analyst, Developer</h1>
+                <picture>
+                        <source 
+                        media="(min-width: 500px)" 
+                        srcset="https://lh3.googleusercontent.com/rRGKWfW1UZ5awtEZdp_36mTyVANFI2rrAFr9gEEhCyIosVbqisZLeO7OKkTCy4E_f0yq9DQVaHItQoEak_sGrluVzJr5qh4KmVmTPEo_EG-OAShDKnohYNDWeYjxvmRce9XuMxPpx037GZWUMMonvJiy6SzhnuPFcEAOZDEsxjqKu6ZnAtgoyQclJGgc1js4ctKHB8C2k9dxhRksK0jeYtquWv8rDuNywBhQgGbhVQ4EYbefjilZotGPxbaC0qPqZ40G0UhDHSJe6Q0hLByL1nD_DAhx8bOnR5bWAVmQQCpJJVs3gYo63qP261hmvFYhr4EeLPK2fa-3iCp9ORxEuLCsVlYIhai1mGKu-EPaoUjG0oxHgIuYkeN4WwhN9AGwJ959Ltr0tDF3a-FQQDidn8nrpT-P6WKP3zKrrdXG5koQ2alNEKu_1Fw8lgLlxgGGPTeKhFi5h2BruDkcFRbyaIzzOEqA2hUz9wWXOLGu0YLPQ58-l8XOH8f3FRZSTmbEUkdfY6nZAGrnHGDihaOWDT7uQlKRdn3ggid0d3NDMPF4fIrjTtfvhzK2iRyzIiVMt71ro-Z_5YqajX8QjUOIuyeBHw_jBJjFTeEpqKtH1e8BlPkLW2D2P-M_sbww_lEeXd-rO2kLgpRwy0kqUeVo9tshDKURwc-ZHBVIiLUiFYYS6nLdXXv7ufB_fb2PSFxhr943yEdON9GTUzwiJbLnS5XVOsyNm4fsOvLeH4xF1aW6LcqE_hAztg0enC6lzjv9stP4rShQDwFKCpIkGKKhunMNeL60qziq2uiy3YjJfqACLtUeWwDkBlvJjcDR_s60QDpdFc6NKwQ2pHqqwrQEth9cjl5WgUhVKRPpZZN-EqBHhY06AJsf_yuzjaUIg8eE99s9V_GUJte6HOozkV7F7G710eXVEghyGRXEJ1-_-2RgLI7Eduw1LkQo-GE17H8deMGxr1JH_wsA4AWNag=w1920-h422-s-no?authuser=0">
+                        <img 
+                        src="https://lh3.googleusercontent.com/65TKda29kSXQkh-OcPUE9mGcrmYJONfCDv8lYvOkJHeSDs5IuTpepJpPY01xsvKCu8gVCKBPX_iUMUdlN_dqPBZitgUpfLRwdL9ZkkP38hr4g3OvzIlJoHiCoV9YCBiLoxe7KB4lW4Ky5Tl-_h7NzQSCpQ51NSLGMuCmwzl6PuEgTpErMPNCMMBy6sVIe657rvDcRGfbDOlxyPtg3mh95UvwWp20FaKtSGoE_LHvwxDgwmVHUBSnpn8H3V3-6DBFx6pF07yg5ChC8DNanRf1okxO-NK1x_vVvforMX7lZybJiLHbk8ZKCs6l8SByVVwktyTAeA50GaoJ-0ONb8nTdSpoyS5mgWY20c2KinAUGdntKedp90FG6u8kXJWdtmDaGmb11Rk-Y8JzBNrKKyWLkQ-eIFHcPMe_LxFHY-vvAtjm-CXI4431cAlBbYjiRCLDMmyQ8s87ViXLl-hxSVkG3DcHj69bqXuC22X1F87tqs8CRheU01_zq_YVEhq68YLw3V8uI8Nzg5Ltp5Zry1GOzppkP5we1m-KmgdB-N5xgw6szUae7JksUGhLWXoA8zUyRAE2dsbsHnW4sUqS7V-DIKHD7mmV7pcPOR72yOfZX1e1IhXe1jDoLBkS6hL5a521de708SYt_vVzSVp5CIisOELgfLyiCMvAx7YHq7AWKVUeAdR3DifDbNgpqwg3G52v6zD-nl0I8o28eeqW_6K4YV8a7nnQXOhjERVeoXsgiXyqUv8hNoO5GjpOkTCTBjvCtQz-HtHeBC9tyIYLn7457cunyJwiF_4NJZZJMIFbJQnjQAAl0VTVztfVCQRwxHl6Ajb-Tl-XEwBxP6yZswKEVGK-DN0Gvf0edMqx_U0UJ-pnXVb0gQMx1UT1cpMRDswLMqugafTvPu6v4c9LM0fw2jFIQKIrVbqLwQfm-cmwcmXLpAg5m4UUQG5rJI4fnkwqpjt1il9H2JuMGqo8uA=w497-h502-s-no?authuser=0" 
+                        alt="GermanAndPer: Data Analyst, Developer"
+                        class="logo"
+                        >
+                    </a>
+                </picture>
+                <!-- <a href="https://imgur.com/XN77OFh"><img src="https://i.imgur.com/XN77OFh.png" title="source: imgur.com" /></a> -->
+                <!-- <h1>GermanAndPer: Data Analyst, Developer</h1> -->
             </div>
             <nav class="barra__navegacion">
                 <!-- Acomo se comento que HEADER es para los encabezados, NAV es para agrupar la barra de Navegacion. -->
@@ -159,18 +190,22 @@ lang="es" cuando esta en español.
                 </a>
                 <a href="https://github.com/GermanAndPer" class="contact__links"> 
                     <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" 
-                    alt="Github" class="img__link"> 
+                    alt="Github" 
+                    class="img__link"
+                    title="Github"> 
                 </a>
                 <a href="https://twitter.com/GermanAndPer" class="contact__links"> 
                     <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png" 
-                    alt="Twitter" class="img__link"> 
+                    alt="Twitter" 
+                    class="img__link"
+                    title="Twitter"> 
                 </a>
                 <a href="hello@germandper.com" class="contact__links"> 
                     <img src="https://static.thenounproject.com/png/1028813-200.png" 
                     alt="e-mail" class="img__link"> 
                 </a>
             </section>
-
+            
         </footer>
     </body>
 </html>

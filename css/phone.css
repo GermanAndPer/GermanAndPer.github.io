@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
 }
-/* html {
+html {
     font-size: 62.5%;
 } 
 p{
     font-size: 1.6rem;
-} */
+}
 
 /* Esto le da formato el cuerpo del HTML */
 
@@ -28,6 +28,8 @@ header {
     flex-wrap: wrap;
     align-items: center;
     padding: 10px;
+    background-color: gr;
+
     
 }
 .titulo, .barra__navegacion {
@@ -56,6 +58,13 @@ header {
     font-size: 15px;
     */
 }
+
+.logo {
+    height: 60px;
+}
+
+
+
 
 .barra__navegacion {
     /* position: absolute; */
@@ -257,3 +266,13 @@ header {
 footer {
     border: 1px solid white ;
 }
+
+/* Break Point */
+@media(min-width: 600px) {
+    
+}
+
+@media(min-width: 800px) {
+    
+}
+
