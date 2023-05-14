@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+} 
+p{
+    font-size: 1.6rem;
+}
+
+/* Esto le da formato el cuerpo del HTML */
+
+
+body {
+    background-color: black;
+    color: rgb(24, 215, 215) ;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+header {
+    /* height: 100px; */
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    background-color: gr;
+
+    
+}
+.titulo, .barra__navegacion {
+    /* display: inline-block; */
+    margin: 0 auto;
+    width: 50%;
+   
+    /*position: fixed; */
+}
+
+
+.titulo {
+    font-size: 12px;
+    /* width: 100%;
+    background-color: brown;
+    z-index: 0;
+    height: 100px;
+    margin-bottom: 10px; 
+    padding: 10px;
+    top: 1px;
+    text-align: left;
+    left: 1px;
+    width: 100%;
+    position: absolute; */
+    /* 
+    font-size: 15px;
+    */
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+
+
+
+.barra__navegacion {
+    /* position: absolute; */
+    /* background-color: aqua; */
+    /* z-index: 1;
+    width: 100%; */
+    /* position: absolute; */
+
+   
+}
+
+.main-nav {
+    margin: 0 auto;
+    list-style: none;
+    text-align: right;
+    padding: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.main-nav__item {
+    padding: 3px;
+    /* display: flex;
+    flex-direction: row;
+    text-align: right; */
+}
+/* La siguiente accion es para se especifico. Que para las etiquetas (como la A) que estan dentro de la clase main-nav__item. va a funcionar el siguiente codigo.*/
+.main-nav__item a {
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    padding: 2px;
+    border-radius: 3px;
+    text-decoration: none;
+    /* display: block; */
+    margin: 0 10px;
+}
+
+/* HOVER e la accion de que el MOUSE este arriba del de algo.
+Esto es una PSEUDOCLASE*/
+.main-nav__item a:hover {
+    color: blue;
+}
+
+/* ACTIVE hace referencia a cuando se da click */
+.main-nav__item a:active {
+    color: greenyellow;
+}
+
+
+/* PSEUDOELEMENTO para llamar a un PSEUDOELEMENTO es necesario los dos puntos :: 
+AFTER es como una condicion. Cada que termina un elemento, que hacer.
+en este caso CONTENT es para poner ese simbolo despues de cada Elemento. 
+*/
+/* .main-nav__item a::after {
+    content: "✅";
+
+} */
+/* ******************************************************************************** */
+
+main {
+    display: flex;
+
+}
+
+
+.summary, .aboutMe {
+    /* display: inline-block; */
+    
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.summary {
+    background-color: blue;
+    
+    
+}
+
+.description {
+    width: 20vh;
+    margin: 10px ;
+    padding: 1px;
+    background-color: rgb(8, 143, 102);
+    font-size: 14px;
+    color: white;
+}
+
+ul, ol {
+    /* width: 20vh; */
+    list-style: none;
+}
+
+.aboutMe {
+    /* position: relative;
+    justify-content: center; */
+    /* width: 75vw;
+    height: 80vh; */
+    /* grid-area: main; */
+    /* position: absolute; */
+}
+
+
+.thisIsMe {
+    /* height: 100%;
+    width: 100%; */
+}
+/* 
+p {
+    width: auto;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************************************************************************** */
+.contact__links {
+    /* display: inline-block; */
+    position: relative;
+    justify-content: stretch;
+    
+}
+
+.contact {
+    /* position: relative; */
+    /* justify-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.contact {
+    margin: 10px auto;
+    padding: 1% ;
+    background-color: gray;
+    /* border-radius: 15%; */
+    /* justify-items: stretch; */
+    text-align: center;
+}
+
+.img__link {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.img__link:hover {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact__links:hover {
+    /* padding: 10px; */
+    background-color: greenyellow;
+    /* position: relative;
+    bottom: 15px; */
+}
+.contact__links:active {
+    background-color: blue;
+}
+
+
+
+/* la etiqueta BOX SIZING accede a todos los elementos y les da un apropiedad en especifico. Esta en especifico permite auto ajustar 
+la visualizacon de la pagina web solo no toma en consideracion  el MARGIN */
+
+
+
+main {
+    border: 1px solid greenyellow;
+}
+
+header {
+    border: 1px solid azure ;
+}
+
+footer {
+    border: 1px solid white ;
+}
+
+/* Break Point */
+@media(min-width: 600px) {
+    
+}
+
+@media(min-width: 800px) {
+    
+}
+
+
+

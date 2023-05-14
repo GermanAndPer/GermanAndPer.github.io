@@ -35,14 +35,18 @@ header {
 .titulo, .barra__navegacion {
     /* display: inline-block; */
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
    
     /*position: fixed; */
 }
 
 
-.titulo {
-    font-size: 12px;
+.logo {
+    /* margin: 0 auto; */
+
+    width: 100%;
+
+    /* font-size: 12px; */
     /* width: 100%;
     background-color: brown;
     z-index: 0;
@@ -59,13 +63,6 @@ header {
     */
 }
 
-.logo {
-    height: 60px;
-}
-
-
-
-
 .barra__navegacion {
     /* position: absolute; */
     /* background-color: aqua; */
@@ -77,14 +74,14 @@ header {
 }
 
 .main-nav {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     list-style: none;
-    text-align: right;
-    padding: auto;
-    
+    text-align: center;
+    width: 100%;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: center;
 }
 
 .main-nav__item {
@@ -99,11 +96,12 @@ header {
     font-family: 'Roboto Slab', serif;
     font-family: 'Source Code Pro', monospace;
     color: white;
-    padding: 2px;
+    padding: 1rem;
     border-radius: 3px;
     text-decoration: none;
     /* display: block; */
-    margin: 0 10px;
+    margin: 1rem;
+    font-size: 1.6rem;
 }
 
 /* HOVER e la accion de que el MOUSE este arriba del de algo.
