@@ -37,7 +37,22 @@ header {
 
 .barra__navegacion {
     background-color: gray;   
+    transition: background-color 1s ease-in-out;
+    animation: fade-in 5s infinite;
 }
+
+@keyframes fade-in {
+    0% {
+      background-color: gray;
+    }
+    50% {
+      background-color: black;
+    }
+    100% {
+      background-color: gray;
+    }
+  }
+
 
 .main-nav {
     margin: auto;
@@ -88,7 +103,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .logo__phone, .summary, .aboutMe {
@@ -102,7 +116,6 @@ main {
 
 .logo__phone {
     width: 100%;
-    
 }
 
 .logo__phone img {
@@ -171,10 +184,14 @@ p {
 
 
 .aboutMe img {
-    width: 90%;
+    width: 80%;
     border-radius: 100%;
     display: flex;
     flex-wrap: wrap;
+    
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -252,11 +269,11 @@ la visualizacon de la pagina web solo no toma en consideracion  el MARGIN */
 
 
 main {
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 
 header {
-    border: 1px solid azure ;
+    /* border: 1px solid azure ; */
 }
 
 footer {
