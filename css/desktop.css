@@ -54,9 +54,7 @@ header {
     left: 1px;
     width: 100%;
     position: absolute; */
-    /* 
-    font-size: 15px;
-    */
+    
 }
 
 .logo {
@@ -64,6 +62,9 @@ header {
     width: auto;
 }
 
+.logo__phone {
+    display: none;
+}
 
 
 

@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 html {
     font-size: 62.5%;
@@ -8,104 +10,63 @@ p{
     font-size: 1.6rem;
 }
 
-/* Esto le da formato el cuerpo del HTML */
-
-
 body {
     background-color: black;
     color: rgb(24, 215, 215) ;
     margin: 0;
     padding: 0;
-    
 }
 
-
 header {
-    /* height: 100px; */
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 10px;
-    background-color: gr;
-
-    
-}
-.titulo, .barra__navegacion {
-    /* display: inline-block; */
-    margin: 0 auto;
-    width: 100%;
-   
-    /*position: fixed; */
-}
-
-
-.logo {
-    /* margin: 0 auto; */
-
-    width: 100%;
-
-    /* font-size: 12px; */
-    /* width: 100%;
-    background-color: brown;
-    z-index: 0;
-    height: 100px;
-    margin-bottom: 10px; 
-    padding: 10px;
-    top: 1px;
-    text-align: left;
-    left: 1px;
-    width: 100%;
-    position: absolute; */
-    /* 
-    font-size: 15px;
-    */
+    background-color: gray;
+    height: 8rem;
 }
 
 .barra__navegacion {
-    /* position: absolute; */
-    /* background-color: aqua; */
-    /* z-index: 1;
-    width: 100%; */
-    /* position: absolute; */
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
 
-   
+.barra__navegacion {
+    background-color: gray;   
 }
 
 .main-nav {
-    /* margin: 0 auto; */
+    margin: auto;
     list-style: none;
     text-align: center;
-    width: 100%;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* background-color: gray; */
 }
 
 .main-nav__item {
-    padding: 3px;
-    /* display: flex;
-    flex-direction: row;
-    text-align: right; */
+    padding: .5rem;
+    margin: .6rem;
+    
+
 }
 /* La siguiente accion es para se especifico. Que para las etiquetas (como la A) que estan dentro de la clase main-nav__item. va a funcionar el siguiente codigo.*/
 .main-nav__item a {
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
     font-family: 'Source Code Pro', monospace;
+    font-size: 1.6rem;
     color: white;
-    padding: 1rem;
     border-radius: 3px;
     text-decoration: none;
-    /* display: block; */
-    margin: 1rem;
     font-size: 1.6rem;
 }
 
-/* HOVER e la accion de que el MOUSE este arriba del de algo.
-Esto es una PSEUDOCLASE*/
 .main-nav__item a:hover {
     color: blue;
 }
@@ -126,19 +87,40 @@ en este caso CONTENT es para poner ese simbolo despues de cada Elemento.
 } */
 /* ******************************************************************************** */
 
-main {
-    display: flex;
 
+.logo__phone {
+    width: 0 auto;
+    display: flex;
 }
 
 
-.summary, .aboutMe {
-    /* display: inline-block; */
-    
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/* .logo__phone {
+    position: absolute;
+} */
+
+.logo__phone, .summary, .aboutMe {
+    display: inline-block;
+    /* display: flex; */
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
     font-family: 'Source Code Pro', monospace;
 }
+
+.logo__phone {
+    width: 100%;    
+}
+
+.logo__phone img {
+    width: 100%;    
+}
+
 
 .summary {
     background-color: blue;
