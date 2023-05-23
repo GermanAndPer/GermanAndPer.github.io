@@ -106,7 +106,7 @@ main {
 }
 
 .logo__phone, .summary, .aboutMe {
-    display: inline-block;
+    /* display: inline-block; */
     /* display: flex; */
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
@@ -136,32 +136,21 @@ main {
 opacity: 1;
 }
 
-
-
-
-
-.summary {
-    background-color: blue;
-    
-    
-}
-
-.description {
-    width: 70%;
+.aboutMe h2 {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 10px ;
-    padding: 1px;
-    background-color: rgb(8, 143, 102);
-    font-size: 14px;
-    color: white;
 }
 
-ul, ol {
-    /* width: 20vh; */
-    list-style: none;
-}
 
 .aboutMe {
+    border-radius: 2rem;
+    background-color:grey;
+    margin: 1rem;
+    padding: 2rem;
+    color: white;
     /* width: 100%;   */
     /* position: relative;
     justify-content: center; */
@@ -170,6 +159,41 @@ ul, ol {
     /* grid-area: main; */
     /* position: absolute; */
 }
+
+
+
+.summary {
+    background-color: blue;   
+}
+
+.description {
+    width: auto;
+    justify-content: center;
+    margin: 10px ;
+    padding: 1px;
+    background-color: rgb(8, 143, 102);
+    font-size: 14px;
+    color: white;
+}
+
+
+ul, ol {
+    /* width: 20vh; */
+    list-style: none;
+}
+
+ol{
+    padding: 1rem;
+}
+
+.description h2 {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 
 .thisIsMe {
@@ -185,13 +209,13 @@ p {
 
 .aboutMe img {
     width: 80%;
-    border-radius: 100%;
+    border-radius: 5%;
     display: flex;
     flex-wrap: wrap;
     
     margin: 0 auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -227,7 +251,7 @@ p {
 }
 
 .contact {
-    margin: 10px auto;
+    margin:  auto;
     padding: 1% ;
     background-color: gray;
     /* border-radius: 15%; */
