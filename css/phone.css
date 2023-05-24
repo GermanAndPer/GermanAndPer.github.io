@@ -163,18 +163,37 @@ opacity: 1;
 
 
 .summary {
-    background-color: blue;   
+    /* background-color: blue;    */
 }
 
 .description {
     width: auto;
     justify-content: center;
     margin: 10px ;
-    padding: 1px;
-    background-color: rgb(8, 143, 102);
+    padding: 1rem;
+    /* background-color: gray ; */
     font-size: 14px;
     color: white;
 }
+
+.training {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.training img {
+
+    width: 14rem;
+    margin: 1rem;
+
+    /* background-color: purple; */
+}
+
+
 
 
 ul, ol {
