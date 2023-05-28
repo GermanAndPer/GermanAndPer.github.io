@@ -12,7 +12,7 @@ p{
 
 body {
     background-color: black;
-    color: rgb(24, 215, 215) ;
+    /* color: rgb(24, 215, 215) ; */
     margin: 0;
     padding: 0;
 }
@@ -194,14 +194,21 @@ opacity: 1;
     align-items: center;
     margin: 0 auto;
     width: 13rem;
-    height: 13rem;
+    height: 15rem;
+    text-align: center;
+    color: rgba(99, 177, 139, 0.652);
 }
-.tools {
+
+
+
+
+.description section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
+
 
 .description img {
     max-width: 12rem;
@@ -209,30 +216,13 @@ opacity: 1;
     max-height: 9rem;
 }
 
-/* .tools img {
-    width: auto;
-    height: 10rem;
-}
-*/
-/* 
-.tools picture {
-    height: 13rem;
-} 
-
- */
-
-
-
-ul, ol {
-    /* width: 20vh; */
-    list-style: none;
-}
-
-ol{
+.description p {
+    margin: 1rem;
     padding: 1rem;
 }
 
-.description h2 {
+
+h2 {
     align-items: center;
     align-content: center;
     display: flex;
@@ -280,16 +270,27 @@ p {
 
 
 /* ******************************************************************************** */
+footer {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;    
+}
+
+footer p {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+
+
 .contact__links {
-    /* display: inline-block; */
     position: relative;
     justify-content: stretch;
     
 }
 
 .contact {
-    /* position: relative; */
-    /* justify-content: center; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -299,18 +300,8 @@ p {
 .contact {
     margin:  auto;
     padding: 1% ;
-    background-color: gray;
-    /* border-radius: 15%; */
-    /* justify-items: stretch; */
+    background-color: rgb(106, 103, 103);
     text-align: center;
-}
-
-.img__link {
-    width: 50px;
-    height: 50px;
-    margin: 10px 0;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 
@@ -331,31 +322,37 @@ p {
     background-color: blue;
 }
 
-
-
-/* la etiqueta BOX SIZING accede a todos los elementos y les da un apropiedad en especifico. Esta en especifico permite auto ajustar 
-la visualizacon de la pagina web solo no toma en consideracion  el MARGIN */
-
-
-
-main {
-    /* border: 1px solid greenyellow; */
+.footer a {
+    text-decoration: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 10rem;
+    height: 13rem;
+    text-align: center;
+    color: rgba(99, 177, 139, 0.652);
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.3rem;
 }
 
-header {
-    /* border: 1px solid azure ; */
+.footer section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3rem;
+    margin: 2rem;
 }
 
-footer {
-    border: 1px solid white ;
+.footer img {
+    max-width: 12rem;
+    margin: 1rem;
+    max-height: 7rem;
 }
 
-/* Break Point */
-@media(min-width: 600px) {
-    
-}
-
-@media(min-width: 800px) {
-    
-}
 
