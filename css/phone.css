@@ -105,14 +105,11 @@ main {
     justify-content: center;
 }
 
-.logo__phone, .summary, .aboutMe {
-    /* display: inline-block; */
-    /* display: flex; */
+.logo__phone, .summary, .aboutMe, .presentation {
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
     font-family: 'Source Code Pro', monospace;
 }
-
 
 .logo__phone {
     width: 100%;
@@ -145,7 +142,7 @@ opacity: 1;
 }
 
 
-.aboutMe {
+.presentation {
     border-radius: 2rem;
     background-color:grey;
     margin: 1rem;
@@ -230,19 +227,6 @@ h2 {
     justify-content: center;
 }
 
-
-
-.thisIsMe {
-    width: 100%; 
-    /* height: 100%;
-    width: 100%; */
-}
-/* 
-p {
-    width: auto;
-} */
-
-
 .aboutMe img {
     width: 80%;
     border-radius: 5%;
@@ -294,10 +278,6 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
-}
-
-.contact {
     margin:  auto;
     padding: 1% ;
     background-color: rgb(106, 103, 103);
